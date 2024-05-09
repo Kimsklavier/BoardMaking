@@ -57,7 +57,6 @@ public class RequestBodyStringController {
         헤더 정보가 필요하다면 httpEntity 또는 @RequestHeader를 사용하면 됨.
         @ResponseBody 사용시 메시지 바디 정보 직접 반환
         메시지 -> 객체, 객체 -> 메시지로 변환되는 과정에서 HttpConverter 동작.
-
      */
     @ResponseBody
     @PostMapping("/request-body-string-v4")
