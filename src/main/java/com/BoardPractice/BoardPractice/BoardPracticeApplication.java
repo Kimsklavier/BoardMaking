@@ -11,5 +11,4 @@ public class BoardPracticeApplication {
 		System.out.println("김성민 브랜치 생성");
 		SpringApplication.run(BoardPracticeApplication.class, args);
 	}
-
 }
