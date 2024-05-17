@@ -12,5 +12,4 @@ public class BoardPracticeApplication {
 		System.out.println("회사에서 하는 것");
 		SpringApplication.run(BoardPracticeApplication.class, args);
 	}
-
 }
