@@ -27,6 +27,8 @@ public class RequestBodyJsonController {
     // ObjectMapper -> 문자로 된 JSON 데이터인 messageBody를 자바 객체로 변환해줌.
 
     private ObjectMapper objectMapper = new ObjectMapper();
+
+
     @PostMapping("/request-body-json-v1")
     public void requestBodyJsonV1(HttpServletRequest request, HttpServletResponse response) throws IOException {
         ServletInputStream inputStream = request.getInputStream();
